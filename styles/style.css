@@ -376,6 +376,20 @@ body {
   font-weight: 200;
   margin: 50px;
 }
+.line{
+  clear: both;
+  color: black;
+  background-color:black;
+  height: 1px;
+  border-width: 0;
+  width: 1320px;
+  height: 2px;
+  margin: 20px auto;
+}
+.line:hover{
+  color:whitesmoke ;
+  background-color:whitesmoke;
+}
 .text-2{
   height: 100px;
   width: 300px;
