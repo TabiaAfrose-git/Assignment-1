@@ -306,7 +306,7 @@ body {
 /* group-8 */
 .group-8 {
   margin: 120px auto;
-  background-color: rgb(233, 220, 228);
+  background-color: rgba(255, 0, 0, 0.05);
   border-radius: 16px;
 }
 .group-8-img {
