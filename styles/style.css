@@ -81,6 +81,9 @@ body {
   background-image: url("../resources/Vectorrr.png");
   border-radius: 15px;
 }
+.group-3-flex{
+  display: flex;
+}
 .group-3-header {
   width: 642px;
   color: #fff;
@@ -106,6 +109,12 @@ body {
   background: none;
   border: none;
   color: #fff;
+}
+.group-3-img{
+  width: 319.83px;
+  height: 464.662px;
+  margin-top: 100px;
+  margin-left: 100px;
 }
 /* group-4 style */
 .group-4 {
@@ -301,14 +310,18 @@ body {
 .group-8-mail{
     text-align: center;
     margin-top: 20px;
+    border: none;
 }
 .mail{
     border: none;
+    margin-right: 0;
     padding: 20px;
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     width: 20%;
-    margin-right: 0;
+    padding-right: 4px;
+    border-right: none;
+
 }
 .submit{
     border: none;
@@ -316,7 +329,8 @@ body {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     color: white;
-    margin-left: 0;
+    margin-left: 0px;
+
 }
 /* footer */
 .footer{
