@@ -15,7 +15,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 16px;
-  margin: 20px 40px 20px 60px;
+  margin: 20px 100px 140px 72px;
   background-image:linear-gradient(to left,rgb(20, 14, 19,1),rgba(245, 246, 252, 0.1)),
   url("../resources/Banner\ Image.png");
   border-radius: 16px;
@@ -113,6 +113,9 @@ body {
   border: none;
   color: #fff;
 }
+.btn-1:hover{
+  color: #f00;
+}
 .group-3-img{
   width: 319.83px;
   height: 464.662px;
@@ -150,6 +153,10 @@ body {
   background: #f00;
   border: none;
   color: #fff;
+}
+.btn-2:hover{
+  color:#f00;
+  background:rgb(240, 230, 230);
 }
 /* group-5 style */
 .group-5 {
@@ -350,6 +357,7 @@ body {
     margin-left: 0px;
 
 }
+
 /* footer */
 .footer{
   background: #070211;
