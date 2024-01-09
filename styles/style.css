@@ -387,8 +387,14 @@ body {
   margin: 20px auto;
 }
 .line:hover{
+  clear: both;
   color:whitesmoke ;
   background-color:whitesmoke;
+  height: 1px;
+  border-width: 0;
+  width: 1320px;
+  height: 2px;
+  margin: 20px auto;
 }
 .text-2{
   height: 100px;
