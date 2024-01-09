@@ -16,12 +16,13 @@ body {
   height: 100%;
   border-radius: 20px;
   margin: 20px 40px 20px 60px;
-  background-image: url("../resources/Banner\ Image.png");
+  background-image:linear-gradient(to left,rgb(20, 14, 19,1),rgba(245, 246, 252, 0.1)),
+  url("../resources/Banner\ Image.png");
   border-radius: 16px;
   background: #070211 0%, rgba7, 100, 140, 0 100%;
 }
 .group-1-text {
-  padding: 100px 50px 20px 50px;
+  padding: 100px 50px 0px 50px;
   margin: 40px;
   color: #fff;
   text-align: center;
@@ -35,9 +36,9 @@ body {
   color: #fff;
   text-align: center;
   font-family: Merriweather;
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 900;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 /* group-2 style */
 .group-2 {
@@ -78,7 +79,9 @@ body {
 /* group-3 style */
 .group-3 {
   margin: 120px auto;
-  background-image: url("../resources/Vectorrr.png");
+  background-image:
+  linear-gradient(to left, rgba(245, 246, 252, 0.10), rgb(20, 14, 19)),
+   url("../resources/Vectorrr.png");
   border-radius: 15px;
 }
 .group-3-flex{
@@ -154,7 +157,7 @@ body {
   background: #fff;
   display: flex;
   justify-content: space-between;
-  gap: 70px;
+  gap: 20px;
   align-items: center;
 }
 .group-5-part-1 {
@@ -182,11 +185,19 @@ body {
   line-height: 32px; /* 160% */
 }
 .group-5-part-2 {
+  width: 463px;
+  height: 463px;
   border-radius: 463px;
-  border: 15px solid #f00;
+  border: 10px solid #f00;
+  margin-right: 20px;
 }
 .group-5-part-2-img {
-  border-radius: 364.844px;
+  width: 364.844px;
+  height: 364.844px;
+  padding-top: 50px;
+  padding-bottom: 0;
+  padding-left: 45px ;
+  padding-right: 20px;
 }
 .group-5-part-3-header {
   color: #f00;
@@ -240,10 +251,21 @@ body {
   float: right;
 }
 .group-6-img-container {
-  background-image: url("../resources/Rectangle\ 2.png");
-  background-position: bottom, top right;
-  background-repeat: no-repeat;
+  background-image: url("../resources/Rectangle\ 1.png"),url("../resources/Rectangle\ 2.png");
+  background-position: top right,bottom;
+  background-repeat: no-repeat,no-repeat;
+  margin-bottom: 0;
   border-radius: 16px 0px 16px 16px;
+  display: flex;
+  padding-bottom: 0;
+
+}
+.group-6-img-1{
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+  padding-right: 100px;
+
 }
 /*group-7*/
 .group-7 {
@@ -373,6 +395,9 @@ body {
 .social-media{
   text-align: center;
 
+}
+.social-media-btn{
+  background-img: none;
 }
 .last{
   display: flex;
