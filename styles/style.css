@@ -247,18 +247,15 @@ body {
   margin: 10px auto;
 }
 
-.group-6-img-1 {
-  float: right;
-}
 .group-6-img-container {
   background-image: url("../resources/Rectangle\ 1.png"),url("../resources/Rectangle\ 2.png");
   background-position: top right,bottom;
   background-repeat: no-repeat,no-repeat;
   margin-bottom: 0;
-  border-radius: 16px 0px 16px 16px;
+  border-radius: 16px 16px 16px 16px;
+  border: 1px solid black;
   display: flex;
-  padding-bottom: 0;
-
+  margin-top: 20px;
 }
 .group-6-img-1{
   width: 200px;
@@ -332,16 +329,15 @@ body {
 .group-8-mail{
     text-align: center;
     margin-top: 20px;
-    border: none;
+    border: 0;
 }
 .mail{
-    border: none;
-    margin-right: 0;
+    border: 0;
+    margin: 0;
     padding: 20px;
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     width: 20%;
-    padding-right: 4px;
 }
 .mail:focus{
   outline: none;
