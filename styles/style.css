@@ -343,8 +343,10 @@ body {
     width: 20%;
     padding-right: 4px;
     border-right: none;
-
 }
+.mail:focus{
+  outline: none;
+  }
 .submit{
     border: none;
     padding: 20px;
